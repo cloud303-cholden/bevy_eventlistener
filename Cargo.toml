@@ -19,7 +19,7 @@ bevy_eventlistener_core = { path = "crates/bevy_eventlistener_core", version = "
 bevy_eventlistener_derive = { path = "crates/bevy_eventlistener_derive", version = "0.6.1" }
 
 [dev-dependencies]
-bevy = { version = "0.12", default-features = false, features = [
+bevy = { version = "0.12", git = "https://github.com/Cupnfish/bevy.git", branch = "sprite-material-v2",  default-features = false, features = [
     "bevy_winit",
     "x11",
 ] }
